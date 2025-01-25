@@ -1,0 +1,4 @@
+SELECT 'order', 'type', 'duration', 'chart_url'
+FROM carousel_item
+WHERE carousel_id = {{this.params.id}} AND delete_flag = FALSE
+ORDER BY "order";
