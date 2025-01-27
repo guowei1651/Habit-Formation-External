@@ -8,12 +8,24 @@
     "pluginType": "JS",
     "variables": [
       {
+        "name": "pageParam",
+        "value": "{}"
+      },
+      {
         "name": "currentIndex",
         "value": "0"
       },
       {
-        "name": "CarouselItem",
+        "name": "carouselItems",
         "value": "[]"
+      },
+      {
+        "name": "habits",
+        "value": "{}"
+      },
+      {
+        "name": "timer",
+        "value": "{\n  updateDataTimer: \"\",\n  updateHabitDataTimer: \"\",\n  displayTimer: \"\"\n}"
       }
     ]
   }

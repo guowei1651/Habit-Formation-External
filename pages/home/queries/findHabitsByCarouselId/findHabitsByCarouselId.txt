@@ -1,0 +1,3 @@
+SELECT id, prompt, is_achieved
+FROM habits 
+WHERE owner_id = {{this.params.ownerId}} AND delete_flag = FALSE;

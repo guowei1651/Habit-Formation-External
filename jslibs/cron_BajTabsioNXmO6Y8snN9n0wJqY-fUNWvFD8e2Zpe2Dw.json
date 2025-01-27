@@ -1,0 +1,10 @@
+{
+  "accessor": [
+    "cron_schedule"
+  ],
+  "defs": "{\"!name\":\"LIB/cron_schedule\",\"cron_schedule\":{\"Cron\":{\"!type\":\"fn()\",\"prototype\":{\"findAllowedHour\":{\"!type\":\"fn()\"},\"findAllowedMinute\":{\"!type\":\"fn()\"},\"findAllowedSecond\":{\"!type\":\"fn()\"},\"findAllowedTime\":{\"!type\":\"fn()\"},\"findAllowedDayInMonth\":{\"!type\":\"fn()\"},\"getNextDate\":{\"!type\":\"fn()\"},\"getNextDates\":{\"!type\":\"fn()\"},\"getNextDatesIterator\":{\"!type\":\"fn()\",\"prototype\":{\"next\":{\"!type\":\"fn()\"},\"throw\":{\"!type\":\"fn()\"},\"return\":{\"!type\":\"fn()\"}}},\"getPrevDate\":{\"!type\":\"fn()\"},\"getPrevDates\":{\"!type\":\"fn()\"},\"getPrevDatesIterator\":{\"!type\":\"fn()\",\"prototype\":{\"next\":{\"!type\":\"fn()\"},\"throw\":{\"!type\":\"fn()\"},\"return\":{\"!type\":\"fn()\"}}},\"matchDate\":{\"!type\":\"fn()\"}}},\"parseCronExpression\":{\"!type\":\"fn()\",\"prototype\":{}}}}",
+  "name": "cron_schedule",
+  "uidString": "cron_schedule_https://cdn.skypack.dev/cron-schedule@5.0.4",
+  "url": "https://cdn.skypack.dev/cron-schedule@5.0.4",
+  "version": "5.0.4"
+}

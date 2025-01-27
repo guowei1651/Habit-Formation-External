@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "6780ed538796eb006aaa90b1_87d0e87d-cffd-4eb8-99bc-1e91cb554dc0",
-  "id": "home_findCarouselItemByCarouseId",
+  "gitSyncId": "6780ed538796eb006aaa90b1_fbfd0384-5e87-4fce-ac96-663485f96ba2",
+  "id": "home_findHabitsByCarouselId",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT carousel_id, \"order\", \"type\", relations_id, alert_level, trigger_time, duration, chart_url, created_at, updated_at, delete_flag, display_type\nFROM carousel_item\nWHERE carousel_id = {{this.params.id}} AND delete_flag = FALSE\nORDER BY \"order\";",
+      "body": "SELECT id, prompt, is_achieved\nFROM habits \nWHERE owner_id = {{this.params.ownerId}} AND delete_flag = FALSE;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -28,7 +28,7 @@
       }
     ],
     "executeOnLoad": true,
-    "name": "findCarouselItemByCarouseId",
+    "name": "findHabitsByCarouselId",
     "pageId": "home",
     "userSetOnLoad": false
   }

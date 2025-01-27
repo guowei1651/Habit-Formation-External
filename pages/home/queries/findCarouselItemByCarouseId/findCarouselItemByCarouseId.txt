@@ -1,4 +1,4 @@
-SELECT 'order', 'type', 'duration', 'chart_url'
+SELECT carousel_id, "order", "type", relations_id, alert_level, trigger_time, duration, chart_url, created_at, updated_at, delete_flag, display_type
 FROM carousel_item
 WHERE carousel_id = {{this.params.id}} AND delete_flag = FALSE
 ORDER BY "order";
